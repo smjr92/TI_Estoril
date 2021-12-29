@@ -1,0 +1,15 @@
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\bin\Debug\Estoril TI.exe.config
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\bin\Debug\Estoril TI.exe
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\bin\Debug\Estoril TI.pdb
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril_TI.Form1.resources
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril_TI.Properties.Resources.resources
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril TI.csproj.GenerateResource.cache
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril TI.csproj.CoreCompileInputs.cache
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril TI.exe
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril TI.pdb
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril_TI.Planilhas.resources
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril_TI.Anotacoes.resources
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril_TI.Inicio.resources
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril_TI.Softwares.resources
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril TI.csproj.AssemblyReference.cache
+C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril TI.csproj.SuggestedBindingRedirects.cache
