@@ -162,6 +162,7 @@
             this.panelInicio.Name = "panelInicio";
             this.panelInicio.Size = new System.Drawing.Size(788, 664);
             this.panelInicio.TabIndex = 1;
+            this.panelInicio.Paint += new System.Windows.Forms.PaintEventHandler(this.panelInicio_Paint);
             // 
             // Form1
             // 

@@ -15,6 +15,8 @@ namespace Estoril_TI
         public Form1()
         {
             InitializeComponent();
+            loadform(new Inicio());
+
         }
 
         public void loadform(object Form)
@@ -39,11 +41,6 @@ namespace Estoril_TI
             Application.Exit();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("appwiz.cpl");
-        }
-
         private void btnSoftware_Click(object sender, EventArgs e)
         {
             loadform(new Softwares());
@@ -64,5 +61,9 @@ namespace Estoril_TI
             loadform(new Anotacoes());
         }
 
+        private void panelInicio_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
