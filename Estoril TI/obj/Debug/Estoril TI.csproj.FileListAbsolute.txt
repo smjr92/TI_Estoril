@@ -13,3 +13,18 @@ C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril_TI.Inici
 C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril_TI.Softwares.resources
 C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril TI.csproj.AssemblyReference.cache
 C:\Users\Sergio Jr\source\repos\Estoril TI\Estoril TI\obj\Debug\Estoril TI.csproj.SuggestedBindingRedirects.cache
+C:\Projetos\TI_Estoril\Estoril TI\bin\Debug\Estoril TI.exe.config
+C:\Projetos\TI_Estoril\Estoril TI\bin\Debug\Estoril TI.exe
+C:\Projetos\TI_Estoril\Estoril TI\bin\Debug\Estoril TI.pdb
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril TI.csproj.AssemblyReference.cache
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril TI.csproj.SuggestedBindingRedirects.cache
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril_TI.Form1.resources
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril_TI.Anotacoes.resources
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril_TI.Inicio.resources
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril_TI.Planilhas.resources
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril_TI.Properties.Resources.resources
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril_TI.Softwares.resources
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril TI.csproj.GenerateResource.cache
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril TI.csproj.CoreCompileInputs.cache
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril TI.exe
+C:\Projetos\TI_Estoril\Estoril TI\obj\Debug\Estoril TI.pdb

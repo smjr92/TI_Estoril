@@ -64,7 +64,7 @@ namespace Estoril_TI
 
         private void button3_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("shutdown -l");
+            System.Diagnostics.Process.Start(@"shutdown -l");
         }
 
         private void button4_Click(object sender, EventArgs e)

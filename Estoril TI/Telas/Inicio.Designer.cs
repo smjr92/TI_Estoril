@@ -216,7 +216,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.button2.BackgroundImage = global::Estoril_TI.Properties.Resources.user1;
+            this.button2.BackgroundImage = global::Estoril_TI.Properties.Resources.user2;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;

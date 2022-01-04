@@ -16,6 +16,7 @@ namespace Estoril_TI
         {
             InitializeComponent();
             loadform(new Inicio());
+            btnInicio.BackColor = Color.FromArgb(88, 90, 90);
 
         }
 
@@ -31,11 +32,25 @@ namespace Estoril_TI
             f.Show();
         }
 
+
+
         private void Form1_Load(object sender, System.EventArgs e)
         {
             
         }
+        private void backgroundBotao(Button meuButton)
+        {
+            if (meuButton.BackColor != Color.FromArgb(88, 90, 90))
+                meuButton.BackColor = Color.FromArgb(88, 90, 90);
+        }
 
+        private void colorDefault()
+        {
+            btnInicio.BackColor = Color.FromArgb(24, 23, 23);
+            btnSoftware.BackColor = Color.FromArgb(24, 23, 23);
+            btnPlanilhas.BackColor = Color.FromArgb(24, 23, 23);
+            btnAnotacoes.BackColor = Color.FromArgb(24, 23, 23);
+        }
         private void button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -43,21 +58,29 @@ namespace Estoril_TI
 
         private void btnSoftware_Click(object sender, EventArgs e)
         {
+            colorDefault();
+            backgroundBotao(btnSoftware);
             loadform(new Softwares());
         }
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
+            colorDefault();
+            backgroundBotao(btnInicio);
             loadform(new Inicio());
         }
 
         private void btnPlanilhas_Click(object sender, EventArgs e)
         {
+            colorDefault();
+            backgroundBotao(btnPlanilhas);
             loadform(new Planilhas());
         }
 
         private void btnAnotacoes_Click(object sender, EventArgs e)
         {
+            colorDefault();
+            backgroundBotao(btnAnotacoes);
             loadform(new Anotacoes());
         }
 
