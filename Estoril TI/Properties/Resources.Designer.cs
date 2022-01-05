@@ -63,6 +63,16 @@ namespace Estoril_TI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap acrobat {
+            get {
+                object obj = ResourceManager.GetObject("acrobat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap armazenamento_de_banco_de_dados {
             get {
                 object obj = ResourceManager.GetObject("armazenamento-de-banco-de-dados", resourceCulture);
@@ -83,9 +93,9 @@ namespace Estoril_TI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap calculadora {
+        internal static System.Drawing.Bitmap chrome {
             get {
-                object obj = ResourceManager.GetObject("calculadora", resourceCulture);
+                object obj = ResourceManager.GetObject("chrome", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +103,9 @@ namespace Estoril_TI.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap calculadora1 {
+        internal static System.Drawing.Bitmap chrome3 {
             get {
-                object obj = ResourceManager.GetObject("calculadora1", resourceCulture);
+                object obj = ResourceManager.GetObject("chrome3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,26 +226,6 @@ namespace Estoril_TI.Properties {
         internal static System.Drawing.Bitmap settings__2_1 {
             get {
                 object obj = ResourceManager.GetObject("settings (2)1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap user {
-            get {
-                object obj = ResourceManager.GetObject("user", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap user1 {
-            get {
-                object obj = ResourceManager.GetObject("user1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

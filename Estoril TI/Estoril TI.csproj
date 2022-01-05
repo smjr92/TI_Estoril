@@ -62,6 +62,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Telas\Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,14 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Telas\Softwares.resx">
       <DependentUpon>Softwares.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,9 +131,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\calculadora.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\armazenamento-de-banco-de-dados.png" />
@@ -172,9 +169,6 @@
     <None Include="Resources\settings %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\calculadora1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\logout.png" />
   </ItemGroup>
   <ItemGroup>
@@ -196,13 +190,16 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\user.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\user1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\user2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Apps\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acrobat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrome.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

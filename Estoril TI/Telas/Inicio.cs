@@ -39,7 +39,7 @@ namespace Estoril_TI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("odbccp32.cpl");
+            System.Diagnostics.Process.Start("odbcad32");
         }
 
         private void button8_Click(object sender, EventArgs e)
