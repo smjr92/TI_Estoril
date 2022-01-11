@@ -32,8 +32,8 @@
             this.btnJava = new System.Windows.Forms.Button();
             this.btnVnc = new System.Windows.Forms.Button();
             this.btnOpenoffice = new System.Windows.Forms.Button();
-            this.btnOffice = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnToken = new System.Windows.Forms.Button();
+            this.btnAd = new System.Windows.Forms.Button();
             this.btnSophos = new System.Windows.Forms.Button();
             this.btnOcs = new System.Windows.Forms.Button();
             this.btnSercon = new System.Windows.Forms.Button();
@@ -60,6 +60,7 @@
             this.btnJava.Text = "Java";
             this.btnJava.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnJava.UseVisualStyleBackColor = false;
+            this.btnJava.Click += new System.EventHandler(this.btnJava_Click);
             // 
             // btnVnc
             // 
@@ -78,6 +79,7 @@
             this.btnVnc.Text = "UltraVNC";
             this.btnVnc.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnVnc.UseVisualStyleBackColor = false;
+            this.btnVnc.Click += new System.EventHandler(this.btnVnc_Click);
             // 
             // btnOpenoffice
             // 
@@ -96,42 +98,45 @@
             this.btnOpenoffice.Text = "Open Office";
             this.btnOpenoffice.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnOpenoffice.UseVisualStyleBackColor = false;
+            this.btnOpenoffice.Click += new System.EventHandler(this.btnOpenoffice_Click);
             // 
-            // btnOffice
+            // btnToken
             // 
-            this.btnOffice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.btnOffice.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOffice.BackgroundImage")));
-            this.btnOffice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnOffice.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOffice.FlatAppearance.BorderSize = 0;
-            this.btnOffice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOffice.Font = new System.Drawing.Font("Roboto Black", 10F);
-            this.btnOffice.ForeColor = System.Drawing.Color.White;
-            this.btnOffice.Location = new System.Drawing.Point(428, 261);
-            this.btnOffice.Name = "btnOffice";
-            this.btnOffice.Size = new System.Drawing.Size(120, 120);
-            this.btnOffice.TabIndex = 21;
-            this.btnOffice.Text = "eToken";
-            this.btnOffice.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnOffice.UseVisualStyleBackColor = false;
+            this.btnToken.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.btnToken.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnToken.BackgroundImage")));
+            this.btnToken.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnToken.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnToken.FlatAppearance.BorderSize = 0;
+            this.btnToken.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnToken.Font = new System.Drawing.Font("Roboto Black", 10F);
+            this.btnToken.ForeColor = System.Drawing.Color.White;
+            this.btnToken.Location = new System.Drawing.Point(428, 261);
+            this.btnToken.Name = "btnToken";
+            this.btnToken.Size = new System.Drawing.Size(120, 120);
+            this.btnToken.TabIndex = 21;
+            this.btnToken.Text = "eToken";
+            this.btnToken.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnToken.UseVisualStyleBackColor = false;
+            this.btnToken.Click += new System.EventHandler(this.btnToken_Click);
             // 
-            // button5
+            // btnAd
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Roboto Black", 10F);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(597, 426);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(120, 120);
-            this.button5.TabIndex = 20;
-            this.button5.Text = "Profwiz";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnAd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
+            this.btnAd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAd.BackgroundImage")));
+            this.btnAd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnAd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAd.FlatAppearance.BorderSize = 0;
+            this.btnAd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAd.Font = new System.Drawing.Font("Roboto Black", 10F);
+            this.btnAd.ForeColor = System.Drawing.Color.White;
+            this.btnAd.Location = new System.Drawing.Point(597, 426);
+            this.btnAd.Name = "btnAd";
+            this.btnAd.Size = new System.Drawing.Size(120, 120);
+            this.btnAd.TabIndex = 20;
+            this.btnAd.Text = "Profwiz";
+            this.btnAd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnAd.UseVisualStyleBackColor = false;
+            this.btnAd.Click += new System.EventHandler(this.btnAd_Click);
             // 
             // btnSophos
             // 
@@ -150,6 +155,7 @@
             this.btnSophos.Text = "Sophos";
             this.btnSophos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSophos.UseVisualStyleBackColor = false;
+            this.btnSophos.Click += new System.EventHandler(this.btnSophos_Click);
             // 
             // btnOcs
             // 
@@ -168,6 +174,7 @@
             this.btnOcs.Text = "OCS";
             this.btnOcs.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnOcs.UseVisualStyleBackColor = false;
+            this.btnOcs.Click += new System.EventHandler(this.btnOcs_Click);
             // 
             // btnSercon
             // 
@@ -186,6 +193,7 @@
             this.btnSercon.Text = "Sercon";
             this.btnSercon.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSercon.UseVisualStyleBackColor = false;
+            this.btnSercon.Click += new System.EventHandler(this.btnSercon_Click);
             // 
             // btnOracle
             // 
@@ -204,6 +212,7 @@
             this.btnOracle.Text = "Oracle";
             this.btnOracle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnOracle.UseVisualStyleBackColor = false;
+            this.btnOracle.Click += new System.EventHandler(this.btnOracle_Click);
             // 
             // btnOffice16
             // 
@@ -271,8 +280,8 @@
             this.Controls.Add(this.btnJava);
             this.Controls.Add(this.btnVnc);
             this.Controls.Add(this.btnOpenoffice);
-            this.Controls.Add(this.btnOffice);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.btnToken);
+            this.Controls.Add(this.btnAd);
             this.Controls.Add(this.btnSophos);
             this.Controls.Add(this.btnOcs);
             this.Controls.Add(this.btnSercon);
@@ -291,8 +300,8 @@
         private System.Windows.Forms.Button btnJava;
         private System.Windows.Forms.Button btnVnc;
         private System.Windows.Forms.Button btnOpenoffice;
-        private System.Windows.Forms.Button btnOffice;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnToken;
+        private System.Windows.Forms.Button btnAd;
         private System.Windows.Forms.Button btnSophos;
         private System.Windows.Forms.Button btnOcs;
         private System.Windows.Forms.Button btnSercon;
